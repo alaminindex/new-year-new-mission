@@ -39,3 +39,44 @@
     line-height: 95px; /* 131.944% */
     width: 632px;
 }
+
+/* main First Section here  */
+
+.mainFirstSection{
+    width: 1320px;
+    height: 735px;
+    flex-shrink: 0;
+    margin: 100px auto;
+    /* background-color: gold;
+    padding: 30px; */
+}
+.mainFirstSection>h1{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+.mainFirstSection>h3{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 48px 0px 16px 0px;
+}
+.mainFirstSection>h2{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.mainFirstSection>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
