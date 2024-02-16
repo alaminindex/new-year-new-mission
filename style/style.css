@@ -2,6 +2,10 @@
     margin: 0px;
     padding: 0px;
     font-family: "Merriweather", serif;
+    
+}
+body{
+    background-color: #F2F2F2;
 }
 
 /* Header Section Here */
@@ -126,7 +130,8 @@
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    color: white;
     outline: none;
     border: none;
     padding: 10px;
@@ -135,6 +140,67 @@
 }
 
 .mainSecondSectionTexts>button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/* main Third Section here*/
+
+
+.mainThirdSection{
+    padding-top: 120px;
+    text-align: center;
+    margin: 100px auto;
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+/* .mainThirdSectionText{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+.mainThirdSectionText>h1{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 80px;
+
+}
+.mainThirdSectionText>h1>span{
+    color: #F00
+}
+
+.mainThirdSection>button{ 
+    
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.mainThirdSection>button:hover{
     background-color: black;
     color: white;
 }
