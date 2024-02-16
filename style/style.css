@@ -90,7 +90,7 @@
     /* flex-shrink: 0; */
     background-image:
     linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
-    url("../images/vectorrr.png");
+    url("../images/vector.png");
     margin: 50px auto;
     border-radius: 16px;
 }
