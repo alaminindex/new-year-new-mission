@@ -1,0 +1,9 @@
+.navDiv{
+    
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    background-color: blueviolet;
+    margin: 50px auto;
+    border-radius: 16px;
+}
