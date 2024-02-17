@@ -472,7 +472,7 @@ footer{
     margin-left: auto;
     margin-right: auto;
     width: 1320px;
-    height: 469px;
+    height: 350px;
     flex-shrink: 0;
     background: #e50707;
     padding: 120px 291.5px;
@@ -496,4 +496,27 @@ footer{
 .mainFooterSectionOneIconsCall>img, .mainFooterSectionOneIconsSite>img{
     height: 24px;
     width: 24px;
+}
+
+.mainFooterSectionTwo{
+    display: flex;
+    gap: 24px;
+    flex-shrink: 0;
+    margin-top: 98px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.mainFooterSectionThree{
+    display: flex;
+   justify-content: space-between;
+   color: #FFF;
+   font-family: Inter;
+   font-size: 24px;
+   font-weight: 500;
+   line-height: 40px; /* 166.667% */
+   margin: 120px 0px 98px 0px;
 }
